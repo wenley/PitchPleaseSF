@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 require 'bundler/setup'
 Bundler.require(:default)
 
@@ -6,4 +8,4 @@ require_relative '../lib/types'
 require_relative '../lib/sequences'
 require_relative '../lib/musescore'
 
-RSpec::Core::Runner::run({}, STDERR, STDOUT)
+RSpec::Core::Runner.run({}, STDERR, STDOUT)

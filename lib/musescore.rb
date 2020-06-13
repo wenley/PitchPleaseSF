@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # typed: strict
 
 require_relative './types'
@@ -16,7 +18,7 @@ module Musescore
     end
 
     sig { void }
-    def reload_template
+    def reload_template!
       @template ||= File.open('tmp/Ear_Training.mscx', 'r') do |f|
         Nokogiri::XML(f)
       end

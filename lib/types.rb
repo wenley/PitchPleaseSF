@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # typed: strict
 
 module Types
@@ -23,6 +25,7 @@ module Types
     def self.pick!
       item = T.must(values.sample)
       raise 'Unexpected' if item.is_a?(Array)
+
       item
     end
   end
@@ -79,6 +82,7 @@ module Types
       def self.pick!
         item = T.must(values.sample)
         raise 'Unexpected' if item.is_a?(Array)
+
         item
       end
     end
