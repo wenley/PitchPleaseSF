@@ -30,35 +30,18 @@ module Types
     end
 
     sig { returns(Integer) }
-    def midi
-      case self
-      when G
-        43
-      when AFlat
-        44
-      when A
-        45
-      when BFlat
-        46
-      when B
-        47
-      when C
-        48
-      when CSharp
-        49
-      when D
-        50
-      when EFlat
-        51
-      when E
-        52
-      when F
-        53
-      when FSharp
-        54
-      else
-        T.absurd(self)
-      end
+    def offset_from_g
+      T.must(PITCH_TO_OFFSETS[self])
+    end
+
+    sig { params(number_of_half_steps: Integer).returns(Pitch) }
+    def raise_by_half_steps(number_of_half_steps)
+      T.must(OFFSET_TO_PITCH[(offset_from_g + number_of_half_steps) % 12])
+    end
+
+    sig { params(offset: Integer).returns(Integer) }
+    def midi(offset: 0)
+      offset_from_g + (offset * 12)
     end
 
     sig { returns(Integer) }
@@ -94,6 +77,28 @@ module Types
       end
     end
   end
+
+  PITCH_TO_OFFSETS = T.let(
+    {
+      Pitch::G => 0,
+      Pitch::AFlat => 1,
+      Pitch::A => 2,
+      Pitch::BFlat => 3,
+      Pitch::B => 4,
+      Pitch::C => 5,
+      Pitch::CSharp => 6,
+      Pitch::D => 7,
+      Pitch::EFlat => 8,
+      Pitch::E => 9,
+      Pitch::F => 10,
+      Pitch::FSharp => 11,
+    },
+    T::Hash[Pitch, Integer],
+  )
+  OFFSET_TO_PITCH = T.let(
+    PITCH_TO_OFFSETS.invert,
+    T::Hash[Integer, Pitch],
+  )
 
   class SevenChord < T::Struct
     class Type < T::Enum
@@ -204,12 +209,7 @@ module Types
 
     sig { returns(Integer) }
     def top_musescore_tone_pitch_class
-      case [base, type]
-      when [Pitch::C, Type::MinorSecond]
-        Pitch::CSharp.musescore_tone_pitch_class
-      else
-        0
-      end
+      base.raise_by_half_steps(type.half_steps).musescore_tone_pitch_class
     end
   end
 end
