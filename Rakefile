@@ -20,3 +20,14 @@ end
 
 task(run_all_specs: [:sorbet, :rspec, :rubocop]) do
 end
+
+task(make_interval_test: :environment) do
+  number_of_intervals = 10
+  Musescore.unpack_template!
+  template = Musescore.load_template!
+  intervals = Sequences.generate_intervals(number_of_intervals)
+
+  # Musescore.fill_intervals(intervals, template)
+
+  Musescore.output_mscz_file(template)
+end
