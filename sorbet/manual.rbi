@@ -6,7 +6,12 @@ module RSpec
 end
 
 module Nokogiri
-  module XML
+  class XML
+    sig { params(selector: String).returns(T.untyped) }
+    def css(selector); end
+
+    sig { returns(String) }
+    def to_html; end
   end
 
   sig { params(args: T.untyped).returns(XML) }
