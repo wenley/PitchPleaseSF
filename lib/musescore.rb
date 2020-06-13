@@ -49,6 +49,7 @@ module Musescore
 
     sig { params(template: Nokogiri::XML::Document).void }
     def output_mscz_file(template)
+      `rm -f intervals.mscz`
       `rm -rf output`
       `mkdir -p output`
       `cp -R tmp/ output/`
@@ -57,7 +58,7 @@ module Musescore
         f << "\n"
         f << template.to_html
       end
-      `zip -r intervals.mscz output`
+      `cd output && zip -r ../intervals.mscz Ear_Training.mscx META-INF/container.xml Thumbnails/thumbnail.png`
     end
 
     private
