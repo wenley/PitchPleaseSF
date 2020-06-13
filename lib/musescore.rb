@@ -17,12 +17,15 @@ module Musescore
       `unzip #{TEMPLATE_ZIP_PATH} -d tmp/`
     end
 
-    sig { void }
-    def reload_template!
-      @template ||= File.open('tmp/Ear_Training.mscx', 'r') do |f|
+    sig { returns(Nokogiri::XML) }
+    def load_template!
+      File.open('tmp/Ear_Training.mscx', 'r') do |f|
         Nokogiri::XML(f)
       end
     end
-    attr_reader :template
+
+    # Modify in-place for performance
+    sig { params(interval_list: T::Array[Types::Interval], template: Nokogiri::XML).void }
+    def fill_intervals(interval_list, template); end
   end
 end
