@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'irb'
+require 'bundler/setup'
+Bundler.require(:default)
+
+require_relative '../lib/types'
+require_relative '../lib/sequences'
+require_relative '../lib/musescore'
+
+IRB.start
