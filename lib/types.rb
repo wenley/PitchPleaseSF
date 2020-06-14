@@ -41,7 +41,7 @@ module Types
 
     sig { params(offset: Integer).returns(Integer) }
     def midi(offset: 0)
-      offset_from_g + 43 + (offset * 12)
+      offset_from_g + 55 + (offset * 12)
     end
 
     sig { returns(Integer) }

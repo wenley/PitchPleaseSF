@@ -27,7 +27,12 @@ task(make_interval_test: :environment) do
   template = Musescore.load_template!
   intervals = Sequences.generate_intervals(number_of_intervals)
 
-  # Musescore.fill_intervals(intervals, template)
+  Musescore.fill_intervals(intervals, template)
 
-  Musescore.output_mscz_file(template)
+  Musescore.output_mscz_file(template, 'intervals.mscz')
+  File.open('answer.txt', 'w') do |f|
+    intervals.each_with_index do |interval, i|
+      f.write("#{i + 1} = #{interval.type.serialize} over #{interval.base.serialize}\n")
+    end
+  end
 end

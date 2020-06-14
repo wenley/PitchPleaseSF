@@ -33,10 +33,16 @@ module Musescore
       voices.zip(interval_to_insert).each do |voice_xml, interval|
         next if interval.nil?
 
-        chord_node = voice_xml.at_css('Chord')
+        voice_children = voice_xml.children
+        rest_node = voice_xml.at_css('Rest')
+        if !rest_node.nil?
+          voice_children.delete(rest_node)
+        end
+
+        chord_node = voice_children.at_css('Chord')
         if chord_node.nil?
           chord_node = Nokogiri::XML::Node.new('Chord', template)
-          chord_node.parent = voice_xml
+          voice_children.push(chord_node)
         end
         duration_node = Nokogiri::XML::Node.new('durationType', template)
         duration_node.content = 'whole'
@@ -44,11 +50,12 @@ module Musescore
           duration_node,
           *interval_to_chord_xml_content(interval, template),
         ])
+        voice_xml.children = voice_children
       end
     end
 
-    sig { params(template: Nokogiri::XML::Document).void }
-    def output_mscz_file(template)
+    sig { params(template: Nokogiri::XML::Document, filename: String).void }
+    def output_mscz_file(template, filename)
       `rm -f intervals.mscz`
       `rm -rf output`
       `mkdir -p output`
@@ -58,7 +65,7 @@ module Musescore
         f << "\n"
         f << template.to_html
       end
-      `cd output && zip -r ../intervals.mscz Ear_Training.mscx META-INF/container.xml Thumbnails/thumbnail.png`
+      `cd output && zip -r ../#{filename} Ear_Training.mscx META-INF/container.xml Thumbnails/thumbnail.png`
     end
 
     private
