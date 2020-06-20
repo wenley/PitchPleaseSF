@@ -5,7 +5,7 @@
 require_relative './types'
 
 module Musescore
-  TEMPLATE_ZIP_PATH = T.let('data/Ear_Training.mscz', String)
+  TEMPLATE_ZIP_PATH = T.let('templates/Ear_Training.mscz', String)
 
   class << self
     extend T::Sig
