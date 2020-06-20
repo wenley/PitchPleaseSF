@@ -1,5 +1,7 @@
 task default: :run_all_specs
 
+MUSESCORE_LOCATION = '~/Applications/MuseScore3.app/Contents/MacOS/mscore'
+
 task :environment do
   require 'bundler/setup'
   Bundler.require(:default)
@@ -35,4 +37,5 @@ task(make_interval_test: :environment) do
       f.write("#{i + 1} = #{interval.type.serialize} over #{interval.base.serialize}\n")
     end
   end
+  `#{MUSESCORE_LOCATION} -o ear_training.mp3 intervals.mscz`
 end
