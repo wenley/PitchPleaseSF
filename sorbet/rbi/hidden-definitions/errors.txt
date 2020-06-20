@@ -110,11 +110,12 @@
 # wrong constant name <todo sym>
 # uninitialized constant Abbrev
 # uninitialized constant Abbrev
+# undefined method `connect_internal<defaultArg>1' for class `Addrinfo'
+# wrong constant name connect_internal<defaultArg>1
+# wrong constant name connect_internal
 # wrong constant name shelljoin
 # wrong constant name to_h
 # wrong constant name try_convert
-# uninitialized constant Base64
-# uninitialized constant Base64
 # wrong constant name <Class:BasicObject>
 # uninitialized constant Benchmark
 # uninitialized constant Benchmark
@@ -522,6 +523,123 @@
 # wrong constant name for_many
 # uninitialized constant Bundler::YAMLSerializer
 # uninitialized constant Bundler::YAMLSerializer
+# undefined method `a<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `base<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `blockquote<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `caption<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `checkbox_group<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `hidden<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `hidden<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `html<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `multipart_form<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `multipart_form<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `popup_menu<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `radio_group<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `reset<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `reset<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `scrolling_list<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `submit<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `submit<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>3' for module `CGI::HtmlExtension'
+# wrong constant name a<defaultArg>1
+# wrong constant name a
+# wrong constant name base<defaultArg>1
+# wrong constant name base
+# wrong constant name blockquote<defaultArg>1
+# wrong constant name blockquote
+# wrong constant name caption<defaultArg>1
+# wrong constant name caption
+# wrong constant name checkbox<defaultArg>1
+# wrong constant name checkbox<defaultArg>2
+# wrong constant name checkbox<defaultArg>3
+# wrong constant name checkbox
+# wrong constant name checkbox_group<defaultArg>1
+# wrong constant name checkbox_group
+# wrong constant name file_field<defaultArg>1
+# wrong constant name file_field<defaultArg>2
+# wrong constant name file_field<defaultArg>3
+# wrong constant name file_field
+# wrong constant name form<defaultArg>1
+# wrong constant name form<defaultArg>2
+# wrong constant name form<defaultArg>3
+# wrong constant name form
+# wrong constant name hidden<defaultArg>1
+# wrong constant name hidden<defaultArg>2
+# wrong constant name hidden
+# wrong constant name html<defaultArg>1
+# wrong constant name html
+# wrong constant name image_button<defaultArg>1
+# wrong constant name image_button<defaultArg>2
+# wrong constant name image_button<defaultArg>3
+# wrong constant name image_button
+# wrong constant name img<defaultArg>1
+# wrong constant name img<defaultArg>2
+# wrong constant name img<defaultArg>3
+# wrong constant name img<defaultArg>4
+# wrong constant name img
+# wrong constant name multipart_form<defaultArg>1
+# wrong constant name multipart_form<defaultArg>2
+# wrong constant name multipart_form
+# wrong constant name password_field<defaultArg>1
+# wrong constant name password_field<defaultArg>2
+# wrong constant name password_field<defaultArg>3
+# wrong constant name password_field<defaultArg>4
+# wrong constant name password_field
+# wrong constant name popup_menu<defaultArg>1
+# wrong constant name popup_menu
+# wrong constant name radio_button<defaultArg>1
+# wrong constant name radio_button<defaultArg>2
+# wrong constant name radio_button<defaultArg>3
+# wrong constant name radio_button
+# wrong constant name radio_group<defaultArg>1
+# wrong constant name radio_group
+# wrong constant name reset<defaultArg>1
+# wrong constant name reset<defaultArg>2
+# wrong constant name reset
+# wrong constant name scrolling_list<defaultArg>1
+# wrong constant name scrolling_list
+# wrong constant name submit<defaultArg>1
+# wrong constant name submit<defaultArg>2
+# wrong constant name submit
+# wrong constant name text_field<defaultArg>1
+# wrong constant name text_field<defaultArg>2
+# wrong constant name text_field<defaultArg>3
+# wrong constant name text_field<defaultArg>4
+# wrong constant name text_field
+# wrong constant name textarea<defaultArg>1
+# wrong constant name textarea<defaultArg>2
+# wrong constant name textarea<defaultArg>3
+# wrong constant name textarea
+# wrong constant name <static-init>
 # uninitialized constant CMath
 # uninitialized constant CMath
 # uninitialized constant CSV
@@ -539,10 +657,94 @@
 # uninitialized constant DBM
 # uninitialized constant DBMError
 # uninitialized constant DBMError
-# uninitialized constant DRb
-# Did you mean?  ERB
-# uninitialized constant DRb
-# Did you mean?  ERB
+# wrong constant name _dump
+# wrong constant name _load
+# wrong constant name alive?
+# wrong constant name close
+# wrong constant name initialize
+# wrong constant name send_message
+# wrong constant name uri
+# wrong constant name open
+# undefined method `dump<defaultArg>1' for class `DRb::DRbMessage'
+# wrong constant name dump<defaultArg>1
+# wrong constant name dump
+# wrong constant name initialize
+# wrong constant name load
+# wrong constant name recv_reply
+# wrong constant name recv_request
+# wrong constant name send_reply
+# wrong constant name send_request
+# undefined method `initialize<defaultArg>1' for class `DRb::DRbObject'
+# Did you mean?  initialize_dup
+# wrong constant name ==
+# wrong constant name eql?
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name prepare_backtrace
+# wrong constant name with_friend
+# wrong constant name auto_load
+# wrong constant name initialize
+# undefined method `initialize<defaultArg>1' for class `DRb::DRbServer'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `DRb::DRbServer'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `DRb::DRbServer'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:InvokeMethod>
+# wrong constant name <Class:InvokeMethod18Mixin>
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name safe_level
+# wrong constant name initialize
+# wrong constant name perform
+# wrong constant name <static-init>
+# wrong constant name block_yield
+# wrong constant name perform_with_block
+# wrong constant name <static-init>
+# undefined singleton method `make_config<defaultArg>1' for `DRb::DRbServer'
+# wrong constant name default_safe_level
+# wrong constant name make_config<defaultArg>1
+# wrong constant name make_config
+# undefined method `initialize<defaultArg>1' for class `DRb::DRbTCPSocket'
+# Did you mean?  initialize_dup
+# wrong constant name accept
+# wrong constant name alive?
+# wrong constant name close
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name peeraddr
+# wrong constant name recv_reply
+# wrong constant name recv_request
+# wrong constant name send_reply
+# wrong constant name send_request
+# wrong constant name set_sockopt
+# wrong constant name shutdown
+# wrong constant name stream
+# wrong constant name uri
+# wrong constant name getservername
+# wrong constant name open
+# wrong constant name open_server
+# wrong constant name open_server_inaddr_any
+# wrong constant name parse_uri
+# wrong constant name uri_option
+# wrong constant name ==
+# wrong constant name eql?
+# wrong constant name initialize
+# wrong constant name option
+# wrong constant name <static-init>
+# wrong constant name _dump
+# wrong constant name _dump
+# wrong constant name _load
+# wrong constant name _dump
+# wrong constant name initialize
+# wrong constant name _load
+# wrong constant name mutex
+# undefined method `initialize<defaultArg>1' for class `Date::Infinity'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
 # wrong constant name class_name
 # wrong constant name class_names
 # wrong constant name corrections
@@ -584,6 +786,18 @@
 # undefined singleton method `mktmpdir<defaultArg>1' for `Dir'
 # wrong constant name exists?
 # wrong constant name mktmpdir<defaultArg>1
+# undefined method `def_method<defaultArg>1' for class `ERB'
+# undefined method `def_module<defaultArg>1' for class `ERB'
+# undefined method `initialize<defaultArg>4' for class `ERB'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>5' for class `ERB'
+# Did you mean?  initialize_dup
+# wrong constant name def_method<defaultArg>1
+# wrong constant name def_method
+# wrong constant name def_module<defaultArg>1
+# wrong constant name def_module
+# wrong constant name initialize<defaultArg>4
+# wrong constant name initialize<defaultArg>5
 # wrong constant name _dump
 # wrong constant name initialize
 # wrong constant name _load
@@ -670,8 +884,6 @@
 # Did you mean?  FileUtils::VERSION
 # uninitialized constant FileUtils::Verbose::VERSION
 # Did you mean?  FileUtils::VERSION
-# uninitialized constant Find
-# uninitialized constant Find
 # wrong constant name _compile_method
 # wrong constant name _delegator_method
 # wrong constant name _valid_method?
@@ -689,8 +901,6 @@
 # wrong constant name <Class:SpecFetcher>
 # wrong constant name <Class:SpecificationPolicy>
 # wrong constant name <Class:UninstallError>
-# wrong constant name <=>
-# wrong constant name pretty_print
 # undefined method `find_gems_with_sources<defaultArg>1' for class `Gem::DependencyInstaller'
 # undefined method `find_spec_by_name_and_version<defaultArg>1' for class `Gem::DependencyInstaller'
 # undefined method `find_spec_by_name_and_version<defaultArg>2' for class `Gem::DependencyInstaller'
@@ -715,7 +925,6 @@
 # undefined method `verify_gem_home<defaultArg>1' for class `Gem::Installer'
 # wrong constant name verify_gem_home<defaultArg>1
 # wrong constant name verify_spec_name
-# wrong constant name pretty_print
 # wrong constant name digests
 # wrong constant name initialize
 # wrong constant name write
@@ -804,29 +1013,12 @@
 # wrong constant name s3_expiration
 # wrong constant name sign_s3_url<defaultArg>1
 # wrong constant name sign_s3_url
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # undefined method `initialize<defaultArg>1' for class `Gem::Resolver::ActivationRequest'
 # Did you mean?  initialize_dup
 # wrong constant name initialize<defaultArg>1
 # wrong constant name others_possible?
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # wrong constant name <static-init>
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # wrong constant name <static-init>
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # wrong constant name add_edge_no_circular
 # wrong constant name add_vertex
 # wrong constant name delete_edge
@@ -839,50 +1031,12 @@
 # wrong constant name tag
 # wrong constant name <static-init>
 # uninitialized constant Gem::Resolver::Molinillo::DependencyGraph::Log::Elem
-# wrong constant name pretty_print
 # wrong constant name suggestion
 # wrong constant name suggestion=
 # wrong constant name <static-init>
 # uninitialized constant Gem::S3URISigner
 # uninitialized constant Gem::S3URISigner
 # wrong constant name <static-init>
-# wrong constant name d
-# wrong constant name d=
-# wrong constant name dmp1
-# wrong constant name dmp1=
-# wrong constant name dmq1
-# wrong constant name dmq1=
-# wrong constant name e
-# wrong constant name e=
-# wrong constant name export
-# wrong constant name initialize
-# wrong constant name iqmp
-# wrong constant name iqmp=
-# wrong constant name n
-# wrong constant name n=
-# wrong constant name p
-# wrong constant name p=
-# wrong constant name params
-# wrong constant name private?
-# wrong constant name private_decrypt
-# wrong constant name private_encrypt
-# wrong constant name public?
-# wrong constant name public_decrypt
-# wrong constant name public_encrypt
-# wrong constant name public_key
-# wrong constant name q
-# wrong constant name q=
-# wrong constant name set_crt_params
-# wrong constant name set_factors
-# wrong constant name set_key
-# wrong constant name sign_pss
-# wrong constant name to_der
-# wrong constant name to_pem
-# wrong constant name to_s
-# wrong constant name to_text
-# wrong constant name verify_pss
-# wrong constant name <static-init>
-# wrong constant name generate
 # undefined method `initialize<defaultArg>1' for class `Gem::Security::Policy'
 # Did you mean?  initialize_dup
 # undefined method `initialize<defaultArg>2' for class `Gem::Security::Policy'
@@ -1002,8 +1156,6 @@
 # wrong constant name write<defaultArg>2
 # wrong constant name write<defaultArg>3
 # wrong constant name write
-# wrong constant name <=>
-# wrong constant name pretty_print
 # undefined method `detect<defaultArg>1' for class `Gem::SpecFetcher'
 # undefined method `initialize<defaultArg>1' for class `Gem::SpecFetcher'
 # Did you mean?  initialize_dup
@@ -1034,7 +1186,6 @@
 # wrong constant name <=>
 # uninitialized constant Gem::Specification::GENERICS
 # uninitialized constant Gem::Specification::GENERIC_CACHE
-# wrong constant name pretty_print
 # wrong constant name to_ruby
 # wrong constant name add_spec
 # wrong constant name add_specs
@@ -1075,8 +1226,6 @@
 # uninitialized constant Gem::UriParser
 # uninitialized constant Gem::UriParsing
 # uninitialized constant Gem::UriParsing
-# wrong constant name <=>
-# wrong constant name pretty_print
 # wrong constant name default_gems_use_full_paths?
 # wrong constant name remove_unresolved_default_spec
 # uninitialized constant GetoptLong
@@ -1084,17 +1233,37 @@
 # wrong constant name try_convert
 # undefined method `read_nonblock<defaultArg>1' for class `IO'
 # undefined method `read_nonblock<defaultArg>2' for class `IO'
+# wrong constant name beep
+# wrong constant name cooked
+# wrong constant name cooked!
+# wrong constant name cursor
+# wrong constant name cursor=
+# wrong constant name echo=
+# wrong constant name echo?
+# wrong constant name getch
+# wrong constant name getpass
+# wrong constant name goto
+# wrong constant name iflush
+# wrong constant name ioflush
+# wrong constant name noecho
 # wrong constant name nonblock
 # wrong constant name nonblock=
 # wrong constant name nonblock?
 # wrong constant name nread
+# wrong constant name oflush
 # wrong constant name pathconf
+# wrong constant name pressed?
+# wrong constant name raw
+# wrong constant name raw!
 # wrong constant name read_nonblock<defaultArg>1
 # wrong constant name read_nonblock<defaultArg>2
 # wrong constant name ready?
 # wrong constant name wait
 # wrong constant name wait_readable
 # wrong constant name wait_writable
+# wrong constant name winsize
+# wrong constant name winsize=
+# wrong constant name console
 # undefined method `initialize<defaultArg>1' for class `IPAddr'
 # Did you mean?  initialize_dup
 # undefined method `initialize<defaultArg>2' for class `IPAddr'
@@ -1104,9 +1273,11 @@
 # wrong constant name initialize<defaultArg>2
 # wrong constant name initialize
 # uninitialized constant IRB
-# Did you mean?  ERB
+# Did you mean?  DRb
+#                ERB
 # uninitialized constant IRB
-# Did you mean?  ERB
+# Did you mean?  DRb
+#                ERB
 # wrong constant name to_bn
 # wrong constant name from_state
 # wrong constant name initialize
@@ -1116,6 +1287,7 @@
 # uninitialized constant Kconv
 # wrong constant name itself
 # wrong constant name object_id
+# wrong constant name pretty_inspect
 # wrong constant name then
 # wrong constant name yield_self
 # wrong constant name at_exit
@@ -1136,44 +1308,82 @@
 # uninitialized constant Mutex_m
 # uninitialized constant NKF
 # uninitialized constant NKF
+# undefined method `initialize<defaultArg>4' for class `Net::BufferedIO'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>4
+# wrong constant name write_timeout
+# wrong constant name write_timeout=
 # uninitialized constant Net::DNS
 # uninitialized constant Net::DNS
-# uninitialized constant Net::FTP
-# uninitialized constant Net::FTP
-# uninitialized constant Net::FTPConnectionError
-# uninitialized constant Net::FTPConnectionError
-# uninitialized constant Net::FTPError
-# Did you mean?  Net::HTTPError
-# uninitialized constant Net::FTPError
-# Did you mean?  Net::HTTPError
-# uninitialized constant Net::FTPPermError
-# Did you mean?  FiberError
-# uninitialized constant Net::FTPPermError
-# Did you mean?  FiberError
-# uninitialized constant Net::FTPProtoError
-# uninitialized constant Net::FTPProtoError
-# uninitialized constant Net::FTPReplyError
-# uninitialized constant Net::FTPReplyError
-# uninitialized constant Net::FTPTempError
-# Did you mean?  TypeError
-# uninitialized constant Net::FTPTempError
-# Did you mean?  TypeError
+# wrong constant name max_retries
+# wrong constant name max_retries=
+# wrong constant name max_version
+# wrong constant name max_version=
+# wrong constant name min_version
+# wrong constant name min_version=
+# wrong constant name write_timeout
+# wrong constant name write_timeout=
 # uninitialized constant Net::HTTP::DigestAuth
 # uninitialized constant Net::HTTP::DigestAuth
+# uninitialized constant Net::HTTPAlreadyReported::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPAlreadyReported::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPEarlyHints::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPEarlyHints::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPGatewayTimeout::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPGatewayTimeout::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPLoopDetected::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPLoopDetected::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPMisdirectedRequest::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPMisdirectedRequest::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPNotExtended::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPNotExtended::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPPayloadTooLarge::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPPayloadTooLarge::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPProcessing::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPProcessing::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPRangeNotSatisfiable::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPRangeNotSatisfiable::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPRequestTimeout::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPRequestTimeout::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPURITooLong::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPURITooLong::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPVariantAlsoNegotiates::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPVariantAlsoNegotiates::CODE_TO_OBJ
+# wrong constant name <static-init>
 # uninitialized constant Net::IMAP
 # uninitialized constant Net::IMAP
 # uninitialized constant Net::NTLM
 # uninitialized constant Net::NTLM
+# undefined method `initialize<defaultArg>1' for class `Net::ReadTimeout'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name io
 # uninitialized constant Net::SFTP
+# Did you mean?  Net::FTP
 # uninitialized constant Net::SFTP
+# Did you mean?  Net::FTP
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTPAuthenticationError
 # uninitialized constant Net::SMTPAuthenticationError
 # uninitialized constant Net::SMTPError
-# Did you mean?  Net::HTTPError
+# Did you mean?  Net::FTPError
+#                Net::HTTPError
 # uninitialized constant Net::SMTPError
-# Did you mean?  Net::HTTPError
+# Did you mean?  Net::FTPError
+#                Net::HTTPError
 # uninitialized constant Net::SMTPFatalError
 # Did you mean?  Net::ProtoFatalError
 #                Net::HTTPFatalError
@@ -1192,30 +1402,303 @@
 # uninitialized constant Net::SMTPUnsupportedCommand
 # uninitialized constant Net::SSH
 # uninitialized constant Net::SSH
+# undefined method `initialize<defaultArg>1' for class `Net::WriteTimeout'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name io
 # uninitialized constant Newton
 # uninitialized constant Newton
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Main_Parsing_Routine
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Revision
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Type
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Version
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+# uninitialized constant Nokogiri::CSS::Parser::Racc_YY_Parse_Method
+# wrong constant name <Class:Element>
+# uninitialized constant Nokogiri::XML::Document::ATTRIBUTE_DECL
+# Did you mean?  Nokogiri::XML::AttributeDecl
+#                Nokogiri::XML::Document::ATTRIBUTE_NODE
+# uninitialized constant Nokogiri::XML::Document::ATTRIBUTE_NODE
+# Did you mean?  Nokogiri::XML::Document::ATTRIBUTE_DECL
+# uninitialized constant Nokogiri::XML::Document::CDATA_SECTION_NODE
+# uninitialized constant Nokogiri::XML::Document::COMMENT_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCB_DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCUMENT_FRAG_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_TYPE_NODE
+#                Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Document::COMMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCUMENT_TYPE_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_FRAG_NODE
+#                Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DTD_NODE
+# uninitialized constant Nokogiri::XML::Document::ELEMENT_DECL
+# Did you mean?  Nokogiri::XML::ElementDecl
+# uninitialized constant Nokogiri::XML::Document::ELEMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::ENTITY_DECL
+# Did you mean?  Nokogiri::XML::EntityDecl
+# uninitialized constant Nokogiri::XML::Document::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Document::ENTITY_REF_NODE
+# Did you mean?  Nokogiri::XML::Document::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Document::HTML_DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::Document::NAMESPACE_DECL
+# uninitialized constant Nokogiri::XML::Document::NOTATION_NODE
+# uninitialized constant Nokogiri::XML::Document::PI_NODE
+# uninitialized constant Nokogiri::XML::Document::TEXT_NODE
+# uninitialized constant Nokogiri::XML::Document::XINCLUDE_END
+# uninitialized constant Nokogiri::XML::Document::XINCLUDE_START
+# uninitialized constant Nokogiri::XML::Element::ATTRIBUTE_DECL
+# Did you mean?  Nokogiri::XML::AttributeDecl
+#                Nokogiri::XML::Element::ATTRIBUTE_NODE
+# uninitialized constant Nokogiri::XML::Element::ATTRIBUTE_NODE
+# Did you mean?  Nokogiri::XML::Element::ATTRIBUTE_DECL
+# uninitialized constant Nokogiri::XML::Element::CDATA_SECTION_NODE
+# uninitialized constant Nokogiri::XML::Element::COMMENT_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCB_DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCUMENT_FRAG_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_TYPE_NODE
+#                Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Element::COMMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCUMENT_TYPE_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_FRAG_NODE
+#                Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DTD_NODE
+# uninitialized constant Nokogiri::XML::Element::ELEMENT_DECL
+# Did you mean?  Nokogiri::XML::ElementDecl
+# uninitialized constant Nokogiri::XML::Element::ELEMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::ENTITY_DECL
+# Did you mean?  Nokogiri::XML::EntityDecl
+# uninitialized constant Nokogiri::XML::Element::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Element::ENTITY_REF_NODE
+# Did you mean?  Nokogiri::XML::Element::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Element::Elem
+# uninitialized constant Nokogiri::XML::Element::HTML_DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::IMPLIED_XPATH_CONTEXTS
+# uninitialized constant Nokogiri::XML::Element::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::Element::NAMESPACE_DECL
+# uninitialized constant Nokogiri::XML::Element::NOTATION_NODE
+# uninitialized constant Nokogiri::XML::Element::PI_NODE
+# uninitialized constant Nokogiri::XML::Element::TEXT_NODE
+# uninitialized constant Nokogiri::XML::Element::XINCLUDE_END
+# uninitialized constant Nokogiri::XML::Element::XINCLUDE_START
+# wrong constant name <static-init>
+# uninitialized constant Nokogiri::XML::EntityDecl::ATTRIBUTE_DECL
+# Did you mean?  Nokogiri::XML::AttributeDecl
+#                Nokogiri::XML::EntityDecl::ATTRIBUTE_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ATTRIBUTE_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::ATTRIBUTE_DECL
+# uninitialized constant Nokogiri::XML::EntityDecl::CDATA_SECTION_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::COMMENT_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCB_DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCUMENT_FRAG_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_TYPE_NODE
+#                Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::COMMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCUMENT_TYPE_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_FRAG_NODE
+#                Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DTD_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ELEMENT_DECL
+# Did you mean?  Nokogiri::XML::ElementDecl
+# uninitialized constant Nokogiri::XML::EntityDecl::ELEMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ENTITY_DECL
+# uninitialized constant Nokogiri::XML::EntityDecl::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ENTITY_REF_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::HTML_DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::IMPLIED_XPATH_CONTEXTS
+# uninitialized constant Nokogiri::XML::EntityDecl::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::EntityDecl::NAMESPACE_DECL
+# uninitialized constant Nokogiri::XML::EntityDecl::NOTATION_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::PI_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::TEXT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::XINCLUDE_END
+# uninitialized constant Nokogiri::XML::EntityDecl::XINCLUDE_START
+# uninitialized constant Nokogiri::XML::Node::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::NodeSet::LOOKS_LIKE_XPATH
+# undefined method `to_yaml<defaultArg>1' for class `Object'
 # uninitialized constant RUBYGEMS_ACTIVATION_MONITOR
+# wrong constant name to_yaml<defaultArg>1
+# wrong constant name to_yaml
+# wrong constant name yaml_tag
 # wrong constant name <Class:Object>
 # uninitialized constant Observable
 # uninitialized constant Observable
 # uninitialized constant Open3
-# Did you mean?  OpenSSL
+# Did you mean?  OpenURI
 # uninitialized constant Open3
-# Did you mean?  OpenSSL
+# Did you mean?  OpenURI
+# wrong constant name indefinite_length
+# wrong constant name indefinite_length=
+# wrong constant name +@
+# wrong constant name -@
+# wrong constant name /
+# wrong constant name negative?
+# wrong constant name <Class:KDFError>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name pbkdf2_hmac
+# wrong constant name signed?
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
-# uninitialized constant OpenURI
-# Did you mean?  OpenStruct
-# uninitialized constant OpenURI
-# Did you mean?  OpenStruct
+# undefined method `to_bn<defaultArg>1' for class `OpenSSL::PKey::EC::Point'
+# wrong constant name to_bn<defaultArg>1
+# wrong constant name to_octet_string
+# wrong constant name ==
+# wrong constant name ==
+# wrong constant name ==
+# wrong constant name to_utf8
+# wrong constant name ==
+# wrong constant name ==
+# wrong constant name to_der
+# wrong constant name fips_mode
+# wrong constant name <<
+# wrong constant name io
+# wrong constant name size
+# wrong constant name <static-init>
+# wrong constant name initialize
+# wrong constant name initialize
+# wrong constant name content_type_parse
+# wrong constant name meta_add_field
+# wrong constant name meta_add_field2
+# wrong constant name meta_setup_encoding
+# undefined singleton method `init<defaultArg>1' for `OpenURI::Meta'
+# wrong constant name init<defaultArg>1
+# wrong constant name init
+# wrong constant name check_options
+# wrong constant name open_http
+# wrong constant name open_loop
+# wrong constant name open_uri
+# wrong constant name redirectable?
+# wrong constant name scan_open_optional_arguments
 # uninitialized constant Opus
 # uninitialized constant Opus
-# uninitialized constant PP
-# uninitialized constant PP
 # uninitialized constant PStore
 # uninitialized constant PStore
 # uninitialized constant PTY
 # uninitialized constant PTY
+# uninitialized constant Parser::Ruby24::Racc_Main_Parsing_Routine
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Id_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_R
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version_R
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Revision
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Type
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Version
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+# uninitialized constant Parser::Ruby24::Racc_YY_Parse_Method
 # undefined method `children<defaultArg>1' for class `Pathname'
 # undefined method `find<defaultArg>1' for class `Pathname'
 # wrong constant name children<defaultArg>1
@@ -1223,8 +1706,6 @@
 # wrong constant name fnmatch?
 # wrong constant name glob
 # wrong constant name make_symlink
-# uninitialized constant PrettyPrint
-# uninitialized constant PrettyPrint
 # uninitialized constant Prime
 # uninitialized constant Prime
 # wrong constant name <<
@@ -1252,14 +1733,77 @@
 # uninitialized constant Proc8
 # uninitialized constant Proc9
 # uninitialized constant Proc9
-# uninitialized constant Psych
-# uninitialized constant Psych
+# uninitialized constant ProgressBar::Outputs::NonTty::DEFAULT_OUTPUT_STREAM
+# uninitialized constant ProgressBar::Outputs::Tty::DEFAULT_OUTPUT_STREAM
+# uninitialized constant Psych::UnsafeYAML
+# uninitialized constant Psych::UnsafeYAML
+# wrong constant name add_builtin_type
+# wrong constant name add_domain_type
+# wrong constant name add_tag
+# wrong constant name domain_types
+# wrong constant name domain_types=
+# wrong constant name dump_tags
+# wrong constant name dump_tags=
+# wrong constant name libyaml_version
+# wrong constant name load_tags
+# wrong constant name load_tags=
+# wrong constant name remove_type
 # uninitialized constant RDoc
 # uninitialized constant RDoc
-# uninitialized constant REXML
-# uninitialized constant REXML
-# uninitialized constant Racc
-# uninitialized constant Racc
+# uninitialized constant REXML::Parsers::XPathParser::NAME
+# Did you mean?  REXML::Parsers::XPathParser::QNAME
+# uninitialized constant REXML::Parsers::XPathParser::NAMECHAR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_CHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_CHAR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_STR
+#                REXML::Parsers::XPathParser::NAMECHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_START_CHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_STR
+# Did you mean?  REXML::Parsers::XPathParser::NCNAME_STR
+# uninitialized constant REXML::Parsers::XPathParser::NCNAME_STR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_STR
+# uninitialized constant REXML::Parsers::XPathParser::NMTOKEN
+# Did you mean?  REXML::Parsers::XPathParser::NMTOKENS
+# uninitialized constant REXML::Parsers::XPathParser::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Parsers::XPathParser::REFERENCE
+# uninitialized constant REXML::QuickPath
+# uninitialized constant REXML::QuickPath
+# uninitialized constant REXML::SAX2Listener
+# uninitialized constant REXML::SAX2Listener
+# uninitialized constant REXML::SyncEnumerator
+# uninitialized constant REXML::SyncEnumerator
+# uninitialized constant REXML::XPathParser::NAME
+# uninitialized constant REXML::XPathParser::NAMECHAR
+# Did you mean?  REXML::XPathParser::NAME_CHAR
+# uninitialized constant REXML::XPathParser::NAME_CHAR
+# Did you mean?  REXML::XPathParser::NAME_STR
+#                REXML::XPathParser::NAMECHAR
+# uninitialized constant REXML::XPathParser::NAME_START_CHAR
+# uninitialized constant REXML::XPathParser::NAME_STR
+# Did you mean?  REXML::XPathParser::NCNAME_STR
+# uninitialized constant REXML::XPathParser::NCNAME_STR
+# Did you mean?  REXML::XPathParser::NAME_STR
+# uninitialized constant REXML::XPathParser::NMTOKEN
+# Did you mean?  REXML::XPathParser::NMTOKENS
+# uninitialized constant REXML::XPathParser::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::XPathParser::REFERENCE
+# uninitialized constant RSpec::Core::ExampleGroup::NOT_YET_IMPLEMENTED
+# uninitialized constant RSpec::Core::ExampleGroup::NO_REASON_GIVEN
+# uninitialized constant RSpec::Matchers::BuiltIn::Equal::UNDEFINED
+# wrong constant name <Class:Differ>
+# undefined method `initialize<defaultArg>1' for class `RSpec::Support::Differ'
+# Did you mean?  initialize_dup
+# wrong constant name color?
+# wrong constant name diff
+# wrong constant name diff_as_object
+# wrong constant name diff_as_string
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <Class:CparseParams>
+# wrong constant name <static-init>
 # wrong constant name bytes
 # wrong constant name %
 # wrong constant name entries
@@ -1273,16 +1817,64 @@
 # wrong constant name fire_update!<defaultArg>2
 # wrong constant name fire_update!
 # wrong constant name ruby
+# uninitialized constant Regexp::Parser::VERSION_CONST_REGEXP
+# uninitialized constant Regexp::Parser::VERSION_FORMAT
+# uninitialized constant Regexp::Parser::VERSION_REGEXP
+# wrong constant name extract_resources
+# wrong constant name getname
+# undefined method `initialize<defaultArg>1' for class `Resolv::DNS::Config'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name initialize
+# undefined method `initialize<defaultArg>1' for class `Resolv::DNS::Message'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name initialize
+# undefined method `initialize<defaultArg>1' for class `Resolv::DNS::Requester::ConnectedUDP'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name lazy_initialize
+# wrong constant name initialize
+# undefined method `initialize<defaultArg>1' for class `Resolv::DNS::Requester::TCP'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name initialize
+# wrong constant name lazy_initialize
+# wrong constant name initialize
+# uninitialized constant Resolv::DNS::Resource::LOC::ClassHash
+# Did you mean?  Resolv::DNS::Resource::ClassHash
+# uninitialized constant Resolv::DNS::Resource::LOC::ClassInsensitiveTypes
+# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
+# uninitialized constant Resolv::DNS::Resource::LOC::ClassValue
+# Did you mean?  Resolv::DNS::Resource::ClassValue
+# wrong constant name initialize
+# undefined singleton method `bind_random_port<defaultArg>1' for `Resolv::DNS'
+# wrong constant name allocate_request_id
+# wrong constant name bind_random_port<defaultArg>1
+# wrong constant name bind_random_port
+# wrong constant name free_request_id
+# wrong constant name random
 # uninitialized constant Rinda
 # uninitialized constant Rinda
 # uninitialized constant Ripper
 # uninitialized constant Ripper
+# uninitialized constant RuboCop::Cop::Lint::FormatParameterMismatch::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantConditional::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantConditional::SPACE
 # wrong constant name <Class:Node>
+# undefined method `pretty_print_children<defaultArg>1' for class `RubyVM::AbstractSyntaxTree::Node'
+# Did you mean?  pretty_print_inspect
 # wrong constant name children
 # wrong constant name first_column
 # wrong constant name first_lineno
 # wrong constant name last_column
 # wrong constant name last_lineno
+# wrong constant name pretty_print_children<defaultArg>1
+# wrong constant name pretty_print_children
 # wrong constant name type
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -1318,11 +1910,62 @@
 # Did you mean?  SignalException
 # uninitialized constant Singleton
 # Did you mean?  SignalException
+# uninitialized constant Socket::APPEND
+# uninitialized constant Socket::BINARY
+# uninitialized constant Socket::CREAT
+# uninitialized constant Socket::DSYNC
+# Did you mean?  Socket::SYNC
+# uninitialized constant Socket::EXCL
+# uninitialized constant Socket::FNM_CASEFOLD
+# uninitialized constant Socket::FNM_DOTMATCH
+# uninitialized constant Socket::FNM_EXTGLOB
+# uninitialized constant Socket::FNM_NOESCAPE
+# uninitialized constant Socket::FNM_PATHNAME
+# uninitialized constant Socket::FNM_SHORTNAME
+# uninitialized constant Socket::FNM_SYSCASE
+# uninitialized constant Socket::LOCK_EX
+# Did you mean?  Socket::LOCK_NB
+#                Socket::LOCK_UN
+#                Socket::LOCK_SH
+# uninitialized constant Socket::LOCK_NB
+# Did you mean?  Socket::LOCK_UN
+#                Socket::LOCK_EX
+#                Socket::LOCK_SH
+# uninitialized constant Socket::LOCK_SH
+# Did you mean?  Socket::LOCK_NB
+#                Socket::LOCK_UN
+#                Socket::LOCK_EX
+# uninitialized constant Socket::LOCK_UN
+# Did you mean?  Socket::LOCK_NB
+#                Socket::LOCK_EX
+#                Socket::LOCK_SH
+# uninitialized constant Socket::NOCTTY
+# uninitialized constant Socket::NOFOLLOW
+# uninitialized constant Socket::NONBLOCK
+# uninitialized constant Socket::NULL
+# uninitialized constant Socket::RDONLY
+# Did you mean?  Socket::WRONLY
+# uninitialized constant Socket::RDWR
+# uninitialized constant Socket::SEEK_CUR
+# uninitialized constant Socket::SEEK_DATA
+# Did you mean?  Socket::SEEK_SET
+# uninitialized constant Socket::SEEK_END
+# uninitialized constant Socket::SEEK_HOLE
+# uninitialized constant Socket::SEEK_SET
+# uninitialized constant Socket::SHARE_DELETE
+# uninitialized constant Socket::SYNC
+# Did you mean?  Socket::DSYNC
+# uninitialized constant Socket::TRUNC
+# Did you mean?  TRUE
+# uninitialized constant Socket::WRONLY
+# Did you mean?  Socket::RDONLY
 # uninitialized constant SortedSet::InspectKey
 # wrong constant name initialize
 # wrong constant name setup
 # wrong constant name shellescape
 # wrong constant name shellsplit
+# wrong constant name bol?
+# wrong constant name initialize
 # wrong constant name filter
 # wrong constant name <Class:Struct>
 # uninitialized constant Sync
@@ -1334,6 +1977,12 @@
 # wrong constant name T.noreturn
 # wrong constant name T.noreturn
 # wrong constant name T.untyped
+# wrong constant name <Class:Remover>
+# wrong constant name _close
+# wrong constant name inspect
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
 # uninitialized constant ThreadsWait
 # uninitialized constant ThreadsWait
 # undefined method `enable<defaultArg>1' for class `TracePoint'
@@ -1348,7 +1997,11 @@
 # Did you mean?  TracePoint
 # uninitialized constant Tracer
 # Did you mean?  TracePoint
+# wrong constant name inherited
+# wrong constant name inherited
+# wrong constant name inherited
 # wrong constant name <Class:File>
+# wrong constant name buffer_open
 # undefined singleton method `new2<defaultArg>1' for `URI::FTP'
 # undefined singleton method `new2<defaultArg>2' for `URI::FTP'
 # wrong constant name new2<defaultArg>1
@@ -1419,6 +2072,7 @@
 # wrong constant name check_userinfo
 # wrong constant name set_userinfo
 # wrong constant name <static-init>
+# wrong constant name buffer_open
 # wrong constant name attributes
 # wrong constant name attributes=
 # wrong constant name dn
@@ -1453,3 +2107,7 @@
 # uninitialized constant WEBrick
 # uninitialized constant WeakRef
 # uninitialized constant WeakRef
+# wrong constant name initialize
+# wrong constant name initialize
+# wrong constant name initialize
+# wrong constant name initialize
