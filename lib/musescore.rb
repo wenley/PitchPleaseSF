@@ -54,6 +54,35 @@ module Musescore
       end
     end
 
+    sig { params(template: Nokogiri::XML::Document, pitches: T::Array[Types::Pitch]).void }
+    def fill_base_pitches(template, pitches)
+      voices = template.css('Measure voice').to_a
+      pitch_to_insert = pitches.zip([nil] * pitches.count).flatten
+
+      voices.zip(pitch_to_insert).each do |voice_xml, pitch|
+        next if pitch.nil?
+
+        voice_children = voice_xml.children
+        rest_node = voice_xml.at_css('Rest')
+        if !rest_node.nil?
+          voice_children.delete(rest_node)
+        end
+
+        chord_node = voice_children.at_css('Chord')
+        if chord_node.nil?
+          chord_node = Nokogiri::XML::Node.new('Chord', template)
+          voice_children.push(chord_node)
+        end
+        duration_node = Nokogiri::XML::Node.new('durationType', template)
+        duration_node.content = 'whole'
+        chord_node.children = Nokogiri::XML::NodeSet.new(template, [
+          duration_node,
+          *pitch_to_chord_xml_content(pitch, template),
+        ])
+        voice_xml.children = voice_children
+      end
+    end
+
     sig { params(template: Nokogiri::XML::Document, filename: String).void }
     def output_mscz_file(template, filename)
       `rm -f intervals.mscz`
@@ -120,6 +149,19 @@ module Musescore
       top_note.add_child(tpc_node)
 
       [base_note, top_note]
+    end
+
+    sig { params(pitch: Types::Pitch, document: Nokogiri::XML::Document).returns(T::Array[Nokogiri::XML::Node]) }
+    def pitch_to_chord_xml_content(pitch, document)
+      base_note = Nokogiri::XML::Node.new('Note', document)
+      pitch_node = Nokogiri::XML::Node.new('pitch', document)
+      pitch_node.content = "#{pitch.midi}"
+      base_note.add_child(pitch_node)
+      tpc_node = Nokogiri::XML::Node.new('tpc', document)
+      tpc_node.content = "#{pitch.musescore_tone_pitch_class}"
+      base_note.add_child(tpc_node)
+
+      [base_note]
     end
   end
 end

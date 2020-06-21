@@ -21,10 +21,14 @@ Once installed, make sure the constant `MUSESCORE_LOCATION` in the Rakefile poin
 
 This repository supports the following main actions:
 1. Generating a set of files for ear training.
+  - Audio of an interval for you to identify
+  - List of intervals for you to sing
 2. Generating learning tracks from a full score
 3. Generating a PDF for a full score
 
 #### Ear Training
+
+##### Prompts to Identify
 ```
 rake make_interval_test
 ```
@@ -33,6 +37,16 @@ This will automatically generate three files in the `output/ear_training` direct
 1. `intervals.mscz`, a Musescore file with 10 randomly chosen intervals
 2. `ear_training.mp3`, audio version of those intervals
 3. `answer.txt`, the "answer key" for those intervals
+
+##### Prompts to Sing
+```
+rake make_singback_test
+```
+
+This will automatically generate three files in the `output/ear_training` directory:
+1. `singback_prompt.txt`, text descriptions of 5 intervals
+2. `singback_prompt.mp3`, audio with the lower notes for each interval
+3. `singback_answer.mp3`, "answer key" with audio of the intended intervals
 
 #### Learning Tracks
 

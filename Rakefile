@@ -41,6 +41,31 @@ task(make_interval_test: :environment) do
   `mv ear_training.mp3 output/ear_training`
 end
 
+task(make_singback_test: :environment) do
+  `mkdir -p output/ear_training/`
+  number_of_intervals = 5
+  template = Musescore.parse_template_file
+  intervals = Sequences.generate_intervals(number_of_intervals)
+
+  Musescore.fill_intervals(intervals, template)
+
+  Musescore.output_mscz_file(template, 'output/ear_training/singback_answers.mscz')
+  `#{MUSESCORE_LOCATION} -o ear_training.mp3 output/ear_training/singback_answers.mscz`
+  `mv ear_training.mp3 output/ear_training/singback_answer.mp3`
+
+  File.open('output/ear_training/singback_prompt.txt', 'w') do |f|
+    intervals.each_with_index do |interval, i|
+      f.write("#{i + 1} = #{interval.type.serialize} over #{interval.base.serialize}\n")
+    end
+  end
+
+  template = Musescore.parse_template_file
+  Musescore.fill_base_pitches(template, intervals.map(&:base))
+  Musescore.output_mscz_file(template, 'output/ear_training/singback_prompt.mscz')
+  `#{MUSESCORE_LOCATION} -o ear_training.mp3 output/ear_training/singback_prompt.mscz`
+  `mv ear_training.mp3 output/ear_training/singback_prompt.mp3`
+end
+
 task(:make_learning_tracks, [:musescore_filename] => [:environment]) do |task, args|
   input_filename = args[:musescore_filename]
   basename = File.basename(input_filename, '.*')
