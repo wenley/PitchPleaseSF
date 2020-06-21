@@ -24,19 +24,21 @@ task(run_all_specs: [:sorbet, :rspec, :rubocop]) do
 end
 
 task(make_interval_test: :environment) do
+  `mkdir -p output/ear_training/`
   number_of_intervals = 10
   template = Musescore.parse_template_file
   intervals = Sequences.generate_intervals(number_of_intervals)
 
   Musescore.fill_intervals(intervals, template)
 
-  Musescore.output_mscz_file(template, 'intervals.mscz')
-  File.open('answer.txt', 'w') do |f|
+  Musescore.output_mscz_file(template, 'output/ear_training/intervals.mscz')
+  File.open('output/ear_training/answer.txt', 'w') do |f|
     intervals.each_with_index do |interval, i|
       f.write("#{i + 1} = #{interval.type.serialize} over #{interval.base.serialize}\n")
     end
   end
-  `#{MUSESCORE_LOCATION} -o ear_training.mp3 intervals.mscz`
+  `#{MUSESCORE_LOCATION} -o ear_training.mp3 output/ear_training/intervals.mscz`
+  `mv ear_training.mp3 output/ear_training`
 end
 
 task(:make_learning_tracks, [:musescore_filename] => [:environment]) do |task, args|
