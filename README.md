@@ -15,8 +15,11 @@ rake
 
 ## How to use
 
-This repository supports one main action: Generating a set of files for ear training.
+This repository supports two main actions:
+1. Generating a set of files for ear training.
+2. Generating learning tracks from a full score
 
+#### Ear Training
 ```
 rake make_interval_test
 ```
@@ -26,3 +29,12 @@ This will automatically generate three files in the `output/ear_training` direct
 2. `ear_training.mp3`, audio version of those intervals
 3. `answer.txt`, the "answer key" for those intervals
 
+#### Learning Tracks
+
+```
+rake make_learning_tracks['path/to/musescore/file.mscz']
+```
+
+This will automatically generate 1 MP3 file per part.
+
+The output location is based on the name of the input Musescore file. e.g. If the input Musescore file is named 'some/path/Moon_River.mscz', then the output directory for the MP3s will be `output/Moon_River/`.

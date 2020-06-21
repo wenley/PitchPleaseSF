@@ -43,10 +43,38 @@ end
 
 task(:make_learning_tracks, [:musescore_filename] => [:environment]) do |task, args|
   input_filename = args[:musescore_filename]
-  template = Musescore.parse_template_file(filename: input_filename)
+  basename = File.basename(input_filename, '.*')
+  output_dir = "output/#{basename}"
+  `mkdir -p #{output_dir}`
 
-  part_names = Musescore.part_names(template)
+  template = Musescore.parse_template_file(filename: input_filename)
   template = Musescore.ensure_volume_and_pan_controls(template)
 
-  Musescore.output_mscz_file(template, 'test.mscz')
+  puts "Prepped XML template. Making MP3s..."
+
+  template.css('Part Instrument').each do |main_instrument_node|
+    main_part_name = main_instrument_node.at_css('longName').content
+    puts "Making mp3 for #{main_part_name}..."
+
+    template.css('Part Instrument').each do |instrument_node|
+      part_name = instrument_node.at_css('longName').content
+
+      if main_part_name == part_name
+        # Loud volume
+        instrument_node.at_css("controller[ctrl='7']")['value'] = '105'
+        # Pan right
+        instrument_node.at_css("controller[ctrl='10']")['value'] = '120'
+      else
+        # Soft volume
+        instrument_node.at_css("controller[ctrl='7']")['value'] = '40'
+        # Pan left
+        instrument_node.at_css("controller[ctrl='10']")['value'] = '20'
+      end
+    end
+
+    Musescore.output_mscz_file(template, 'tmp/test.mscz')
+
+    `#{MUSESCORE_LOCATION} -o #{main_part_name}.mp3 tmp/test.mscz`
+    `mv #{main_part_name}.mp3 #{output_dir}/`
+  end
 end
