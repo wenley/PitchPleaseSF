@@ -13,6 +13,10 @@ bundle
 rake
 ```
 
+This repo's Rake tasks require the installation of MuseScore 3. See [the MuseScore website](https://musescore.org/en/download) to download a free copy.
+
+Once installed, make sure the constant `MUSESCORE_LOCATION` in the Rakefile points to the right installation location.
+
 ## How to use
 
 This repository supports the following main actions:
