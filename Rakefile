@@ -78,3 +78,12 @@ task(:make_learning_tracks, [:musescore_filename] => [:environment]) do |task, a
     `mv #{main_part_name}.mp3 #{output_dir}/`
   end
 end
+
+task(:make_pdf, [:musescore_filename] => [:environment]) do |task, args|
+  input_filename = args[:musescore_filename]
+  basename = File.basename(input_filename, '.*')
+  output_dir = "output/#{basename}"
+
+  `#{MUSESCORE_LOCATION} -o #{basename}.pdf #{input_filename}`
+  `mv #{basename}.pdf #{output_dir}/`
+end

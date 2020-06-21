@@ -15,9 +15,10 @@ rake
 
 ## How to use
 
-This repository supports two main actions:
+This repository supports the following main actions:
 1. Generating a set of files for ear training.
 2. Generating learning tracks from a full score
+3. Generating a PDF for a full score
 
 #### Ear Training
 ```
@@ -38,3 +39,13 @@ rake make_learning_tracks['path/to/musescore/file.mscz']
 This will automatically generate 1 MP3 file per part.
 
 The output location is based on the name of the input Musescore file. e.g. If the input Musescore file is named 'some/path/Moon_River.mscz', then the output directory for the MP3s will be `output/Moon_River/`.
+
+#### Making PDFs
+```
+rake make_pdf['path/to/musescore/file.mscz']
+```
+
+This will automatically generate a PDF for the Musescore file.
+
+Like with the learning tracks, the output location is based on the name of the input Musescore file. e.g. If the input Musescore file is named 'some/path/Moon_River.mscz', then the output directory for the MP3s will be `output/Moon_River/`.
+
