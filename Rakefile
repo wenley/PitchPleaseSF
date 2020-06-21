@@ -38,3 +38,13 @@ task(make_interval_test: :environment) do
   end
   `#{MUSESCORE_LOCATION} -o ear_training.mp3 intervals.mscz`
 end
+
+task(:make_learning_tracks, [:musescore_filename] => [:environment]) do |task, args|
+  input_filename = args[:musescore_filename]
+  template = Musescore.parse_template_file(filename: input_filename)
+
+  part_names = Musescore.part_names(template)
+  template = Musescore.ensure_volume_and_pan_controls(template)
+
+  Musescore.output_mscz_file(template, 'test.mscz')
+end

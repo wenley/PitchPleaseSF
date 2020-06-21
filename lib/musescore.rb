@@ -68,6 +68,37 @@ module Musescore
       `cd output && zip -r ../#{filename} Ear_Training.mscx META-INF/container.xml Thumbnails/thumbnail.png`
     end
 
+    sig { params(template: Nokogiri::XML::Document).returns(T::Array[String]) }
+    def part_names(template)
+      template.css('Instrument longName').map(&:content)
+    end
+
+    sig { params(template: Nokogiri::XML::Document).returns(Nokogiri::XML::Document) }
+    def ensure_volume_and_pan_controls(template)
+      template.css('Instrument Channel').each do |channel_node|
+        if channel_node.at_css("controller[ctrl='7']")
+          puts 'found volume'
+        else
+          puts 'no volume'
+          volume_node = Nokogiri::XML::Node.new('controller', template)
+          volume_node['ctrl'] = '7'
+          volume_node['value'] = '99'
+          channel_node.add_child(volume_node)
+        end
+        if channel_node.at_css("controller[ctrl='10']")
+          puts 'found pan'
+        else
+          puts 'no pan'
+          pan_node = Nokogiri::XML::Node.new('controller', template)
+          pan_node['ctrl'] = '10'
+          pan_node['value'] = '63'
+          channel_node.add_child(pan_node)
+        end
+      end
+
+      template
+    end
+
     private
 
     sig { params(interval: Types::Interval, document: Nokogiri::XML::Document).returns(T::Array[Nokogiri::XML::Node]) }
