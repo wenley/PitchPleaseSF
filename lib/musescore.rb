@@ -57,15 +57,15 @@ module Musescore
     sig { params(template: Nokogiri::XML::Document, filename: String).void }
     def output_mscz_file(template, filename)
       `rm -f intervals.mscz`
-      `rm -rf output`
-      `mkdir -p output`
-      `cp -R tmp/ output/`
-      File.open('output/Ear_Training.mscx', 'w') do |f|
+      `mkdir -p tmp/output`
+      `cp -R tmp/META-INF tmp/output/`
+      `cp -R tmp/Thumbnails tmp/output/`
+      File.open('tmp/output/Ear_Training.mscx', 'w') do |f|
         f << '<?xml version="1.0" encoding="UTF-8"?>'
         f << "\n"
         f << template.to_html
       end
-      `cd output && zip -r ../#{filename} Ear_Training.mscx META-INF/container.xml Thumbnails/thumbnail.png`
+      `cd tmp/output && zip -r ../../#{filename} Ear_Training.mscx META-INF/container.xml Thumbnails/thumbnail.png`
     end
 
     sig { params(template: Nokogiri::XML::Document).returns(T::Array[String]) }
