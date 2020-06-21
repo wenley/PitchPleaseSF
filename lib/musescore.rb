@@ -10,18 +10,18 @@ module Musescore
   class << self
     extend T::Sig
 
-    sig { void }
-    def unpack_template!
+    sig { params(filename: String).returns(Nokogiri::XML::Document) }
+    def parse_template_file(filename: TEMPLATE_ZIP_PATH)
       `rm -rf tmp/`
       `mkdir -p tmp/`
       `unzip #{TEMPLATE_ZIP_PATH} -d tmp/`
-    end
 
-    sig { returns(Nokogiri::XML::Document) }
-    def load_template!
-      File.open('tmp/Ear_Training.mscx', 'r') do |f|
+      basename = File.basename(filename, '.*')
+      parsed = File.open("tmp/#{basename}.mscx", 'r') do |f|
         Nokogiri::XML(f)
       end
+
+      parsed
     end
 
     # Modify in-place for performance

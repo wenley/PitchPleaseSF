@@ -25,8 +25,7 @@ end
 
 task(make_interval_test: :environment) do
   number_of_intervals = 10
-  Musescore.unpack_template!
-  template = Musescore.load_template!
+  template = Musescore.parse_template_file
   intervals = Sequences.generate_intervals(number_of_intervals)
 
   Musescore.fill_intervals(intervals, template)
